@@ -1,6 +1,16 @@
 class SessionsController < Devise::SessionsController
     respond_to :json
 
+    def new 
+      
+    end
+
+    def create
+    end
+
+    def destroy
+    end
+
     private
     
     def respond_with(resource, _opts = {})
